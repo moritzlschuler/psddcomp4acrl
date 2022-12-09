@@ -857,7 +857,7 @@ class PSDD:
 	def conjoin_sdds_to_psdd(cls, vtree, sdds, name, path = './'):
 		cur_dir = subprocess.check_output(['pwd']).decode("utf-8").strip() + '/'
 		print(cur_dir)
-		loc_conjoin_sdds2psdd = cur_dir + '../mult_sdd2psdd'
+		loc_conjoin_sdds2psdd = cur_dir + '/psdd/mult_sdd2psdd'
 		psdd_dir = path
 		loc_final_psdd = psdd_dir + name + '.psdd'
 		command = [loc_conjoin_sdds2psdd, vtree]

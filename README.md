@@ -2,7 +2,7 @@
 (P)SDD compilation for Action Constrained Reinforcement Learning
 
 ## Installation Instructions
-Packages required: pandas, numpy, pysdd (https://pysdd.readthedocs.io/en/latest/index.html)
+Packages required: pandas, numpy, pysdd (https://pysdd.readthedocs.io/en/latest/index.html), psdd (https://github.com/moritzlschuler/psdd)
 
 ## Documentation
 
