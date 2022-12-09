@@ -814,7 +814,7 @@ class ResourceConstraintSDD(SDD):
 
 		resource_constraint_sdd = SDD.apply(sdds, 'conjoin', name_original, path)
 
-		return(cls(resource_constraint_sdd.sddfile, resource_constraint_sdd.vtreefile, ents2vars))
+		return(cls(resource_constraint_sdd.sddfile, resource_constraint_sdd.vtreefile, pklfile))
 
 
 	@staticmethod
@@ -919,4 +919,4 @@ class ResourceConstraintPSDD(PSDD, ResourceConstraintSDD):
 
 		resource_constraint_psdd = PSDD.conjoin(vtree, sdds, name_original, path)
 
-		return(cls(resource_constraint_sdd.psddfile, resource_constraint_sdd.vtreefile, ents2vars))
+		return(cls(resource_constraint_sdd.psddfile, resource_constraint_sdd.vtreefile, pklfile))
