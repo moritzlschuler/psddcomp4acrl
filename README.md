@@ -1,3 +1,5 @@
+# PLEASE NOTE THE MAINTAINED VERSION OF THIS REPO IS A PART OF THE FOLLOWING REPO: https://github.com/lingkaching/kcac
+
 # psddcomp4acrl
 (P)SDD compilation for Action Constrained Reinforcement Learning
 
